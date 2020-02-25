@@ -1,3 +1,3 @@
-# schoolem
+# School Em Side Project
 
 Project
