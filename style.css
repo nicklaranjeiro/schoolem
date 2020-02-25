@@ -1,0 +1,262 @@
+/*
+Author: Nicholas Laranjeiro
+Name: Project Beta
+Due Date: Tuesday, March 13th, 2018
+I, Nicholas Laranjeiro, student number 000375014, certify that this material is my original work. 
+No other person's work has been used without due acknowledgement and I have not made my work available to anyone else.
+*/
+#map{
+    margin-top: -20px;
+    height: 85vh;
+    vertical-align: top;
+    width: 65vw;    
+    background: blue;    
+    float: left;    
+}
+
+image{
+    width: 10px;
+}
+
+#border{
+    border-radius: 25px;
+    border: 2px solid #30BEBA;
+    padding: 20px;
+    width: 225px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+}
+
+#narrowSchool{
+    margin-top: -40px;
+    float: left;
+    width: 15vw;
+    height: 85vh;    
+    background-color: #F9FAF5;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+#button, #button2{
+    float: right;
+    margin-right: -40px;    
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+#button{
+    margin-left: 50px;
+}
+
+#header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 40%;    
+}
+
+body{    
+    background-color: black;
+}
+
+html{
+    background-color: #F9FAF5;
+}
+
+#schoolInfo{
+    margin-top: -20px;
+    float: left;
+    height: 85vh;
+    background-color: #F9FAF5;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 20vw;    
+    text-align: center;   
+}
+
+label{
+    margin-top: 30px;
+}
+
+#schoolName{
+    height: 60px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#schoolPicture{
+    width: 15vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;    
+
+}
+
+html, #entirePage{
+    background-color: #F9FAF5;
+    width: 100vw;
+    margin: 0;
+}
+
+#schoolEmImage{
+    padding-top: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+#searchBar{    
+    margin-top: 40px;
+}
+
+.parent{
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: -10px;
+    right: -470px;    
+    z-index: 1;
+}
+
+#mImage{        
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;        
+    width: auto;
+    height: auto;
+    width: 250px;
+    height: 20px;
+}
+
+.fontAdjuster h3{
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+@media (max-width:720px){
+    html, #entirePage{
+        background-color: #F9FAF5;
+        width: 100vw;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #map{
+        flex: 0 0 100%;
+        order: 2;
+        display: block;  
+        width: 100vw;
+        height: 45vh;       
+    }
+
+    #narrowSchool{
+        margin-top: -10px;
+        order: 3;
+        flex: 0 0 50%;
+        float: left;
+        width: 50vw;
+        height: 40vh;
+        
+    }
+
+    #schoolInfo{
+        margin-top: 10px;
+        order: 4;
+        flex: 0 0 50%;
+        float: right;
+        width: 50vw;
+        height: 45vh;
+    }
+
+    #mImage{ 
+        order: 1;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+        background-color: #F9FAF5;        
+        width: 250px;
+        height: 20px;
+    }
+
+    #button, #button2{
+        float: right;
+        margin-right: -40px;
+        margin-top: 35px;        
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+/*    #searchBar{    
+        padding: 5px 5px;        
+        height: 30px; 
+        width: 250px;
+    }*/
+
+    .parent{
+        position: relative;
+    }
+
+    .absolute {
+        position: absolute;
+        top: -417px;
+        right: -120px;        
+        z-index: 1;
+    }
+}
+
+@media (max-width:542px){
+/*    #searchBar{    
+        padding: 5px 5px;        
+        height: 30px; 
+        width: 150px;
+    }*/
+
+    .parent{
+        position: relative;
+    }
+
+    .absolute {
+        position: absolute;
+        top: -417px;
+        right: -110px;        
+        z-index: 1;
+    }
+}
+
+@media (max-width:1080px){
+    .fontAdjuster h3{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    #schoolInfo .fontAdjuster h3{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
